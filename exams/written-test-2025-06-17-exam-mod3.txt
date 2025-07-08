@@ -1,0 +1,9 @@
+1. 	Describe, formally or informally, a deterministic TM of the kind you prefer, which decides the following language:
+		L={w∣w starts with 00 and ends with 1}
+	Examples of strings which are in L are 001 and 001011, while 01∉L. Study the complexity of TM you have defined.
+
+
+2.	You are required to prove that the following problem L is in NP. To do that, you can give a TM or define some pseudocode. The language L includes precisely those binary strings which are encodings of natural numbers which can be factored into 2 distinct prime numbers. In doing so you can assume that primality can be tested in polynomial time. Examples of numbers which are in L are 15=3⋅5 or 35=5⋅7.
+
+3.	Please recall that given an undirected graph G, a cover of it is a subset of its nodes such that every edge of G contains one of the nodes in the subset. Consider now a variation to the vertex cover problem, called FOURCOVER, which contains all undirected graphs having a cover of cardinality equal to 4. To which complexity class does this new problem belong? Prove your claim.
+
